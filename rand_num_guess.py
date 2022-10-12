@@ -18,9 +18,11 @@ import random
 def main():
     # getting the guess from the user
     user_guess = int(
-        input("My little friend has generated a random number between 0-9. "
-              "Guess what it is :) ")
-    )
+        input(
+            "My little friend has generated a random number between 0-9. "
+            "Guess what it is :) "
+            )
+        )
 
     # the program generates a random number from 0-9.
     generated_num = random.randint(0, 9)
